@@ -1,0 +1,20 @@
+*{
+	text-align:center;
+}
+body{
+	font-size: 150%;
+	background-color: #bd5e59;
+}
+h1{
+	background-color: #85211c;
+}
+button.in4{
+		border-style: solid;
+	border-color: aqua;
+	font-size: 15px;
+	width: 80px; 
+	height: 40px;
+}
+button:hover{
+	background-color: #31e88f;
+}

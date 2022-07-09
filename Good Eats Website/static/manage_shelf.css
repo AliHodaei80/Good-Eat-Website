@@ -1,0 +1,48 @@
+*{
+	text-align:center;
+	
+}
+body, html {
+  height: 100%;
+  margin: 0;
+}
+h3{
+	color: white;
+}
+body{
+	font-size: 150%;
+}
+h2{
+	color: white;
+	margin: 0;
+	padding: 0;
+	background: rgba(73, 214, 202, 0.5);
+}
+body{
+	background-image: url("fast_food2.png");
+	height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+input.in4{
+	border-style: solid;
+	border-color: aqua;
+	background-color: rgb(154, 168, 151,0.8);
+	font-size: 15px;
+	width: 150px; 
+	height: 30px;
+}
+input.in4:hover{
+    background-color: #6c736b;
+}
+div.main{
+	position: relative;
+	top: 20px;
+	background-color: rgb(148, 176, 155,0.6);
+	width: 300px;
+	margin: auto;
+	padding: 30px;
+
+}

@@ -1,0 +1,32 @@
+*{
+	text-align:center;
+	color: white;
+}
+body, html {
+  height: 100%;
+  margin: 0;
+}
+body{
+	font-size: 150%;
+}
+.main{
+	background-image: url("fast-food.jpg");
+	height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+a.link:hover{
+	color: #c9de78;
+}
+h1,h4{
+	margin: 0;
+	padding: 0;
+}
+div.head{
+	background: rgba(73, 214, 202, 0.5);
+}
+div.home{
+	font-size: 150%;
+}

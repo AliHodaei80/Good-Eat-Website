@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+	<link rel="stylesheet" type="text/css" href="add_recipe_page.css">
+<link rel="stylesheet" type="text/css" href="toolbar.css">
+        <body>
+            <div class="icon-bar">
+  <a class="active" href="/Login_chef">Home</a> 
+  <a href="/add_recipe_page">Add recipe</a> 
+  <a href="/delete_recipe_page">delete recipe</a>
+  <a href="/logout">Logout</a>
+</div>
+<br><br>
+	<h3>ADD NEW RECIPE</h3><br>
+  <div class="main">
+    <form action="/add_recipe" method="post">
+       Title: <input type="text" name="title" placeholder="name"><br><br>
+       Is vegeterian:<br> YES <input class="in3" type="radio" name="is_vegeterian" value="yes"> NO <input class="in3" type="radio" name="is_vegeterian" value="no"><br><br>
+       Time: <input type="text" name="time" placeholder="eg: 25"><br><br>
+       Ingredients: <input type="text" name="ingredients" placeholder="eg: cheese,potato,..."><br><br>
+       Tags: <input type="text" name="tags" placeholder="eg: lunch,dinner,..."><br>
+       Image:<br> <input class="img" type="file" name="img" accept="image/*">
+      <br>
+       <br>
+        <input class="in4" type="submit" value="submit">
+    </form>
+  </div>
+
+</body>
+</html>

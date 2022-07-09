@@ -1,0 +1,53 @@
+*{
+	text-align:center;
+	
+}
+body, html {
+  height: 100%;
+  margin: 0;
+}
+body{
+	font-size: 150%;
+}
+
+h2{
+	margin: 0;
+	padding: 0;
+	background-color: rgba(245, 66, 108, 0.5);
+}
+img.image{
+	fill: green;
+	position: relative;
+	top: 5px;
+	color: green;
+	width: 150px; 
+	height: 150px;
+}
+div.recipe{
+	margin: auto;
+		position: relative;
+	top: 20px;
+	background-color: rgb(148, 176, 155,0.6);
+	border:10px solid rgb(85, 87, 89,0.6);
+	padding: 30px;
+}
+body{
+	background-image: url("fast_food2.png");
+	height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+button.in3{
+	border-style: solid;
+	border-color: aqua;
+	background-color: rgb(154, 168, 151,0.8);
+	font-size: 15px;
+	width: 70px; 
+	height: 30px;
+}
+button.in3:hover{
+    background-color: #6c736b;
+}

@@ -1,0 +1,49 @@
+*{
+    text-align:center;
+    
+}
+body, html {
+  height: 100%;
+  margin: 0;
+}
+body{
+    font-size: 150%;
+}
+body{
+    background-image: url("fast_food2.png");
+    height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+h2{
+    margin: 0;
+    padding: 0;
+    background-color: rgba(245, 66, 108, 0.5);
+}
+select.recipes{
+    border-style: solid;
+    border-color: #f05d5d;
+    background-color: #e3c668;
+    font-size: 17px;
+    width: 150px; 
+    height: 30px;
+}
+div.delete{
+    margin: auto;
+    width: 400px;
+    padding: 15px;
+    background-color: rgb(227, 121, 95,0.6);
+}
+input.in3{
+    border-style: solid;
+    border-color: aqua;
+    background-color: rgb(154, 168, 151,0.8);
+    font-size: 15px;
+    width: 70px; 
+    height: 30px;
+}
+input.in3:hover{
+    background-color: #6c736b;
+}

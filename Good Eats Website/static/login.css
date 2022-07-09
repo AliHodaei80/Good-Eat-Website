@@ -1,0 +1,59 @@
+*{
+	text-align:center;
+	
+}
+body, html {
+  height: 100%;
+  margin: 0;
+}
+h3{
+	color: white;
+}
+body{
+	font-size: 150%;
+}
+h1{
+	color: white;
+	margin: 0;
+	padding: 0;
+	background: rgba(73, 214, 202, 0.5);
+}
+input[type=text],input[type=password]{
+	background-color: rgba(73, 214, 202,0.5);
+}
+div.main{
+	background-image: url("fast-food.jpg");
+	height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+input.in1,input.in2{
+	font-size: 20px;
+	width: 300px; 
+	height: 30px;
+}
+input.in2{
+	position: relative;
+	top: 10px;
+}
+input.in3{
+	border-style: solid;
+	border-color: aqua;
+	background-color: rgb(154, 168, 151,0.8);
+	font-size: 15px;
+	width: 70px; 
+	height: 30px;
+}
+input.in3:hover{
+    background-color: #6c736b;
+}
+div.menu{
+	position: relative;
+	top: 20px;
+	background-color: rgb(148, 176, 155,0.6);
+	width: 300px;
+	padding: 30px;
+	margin: auto;
+}

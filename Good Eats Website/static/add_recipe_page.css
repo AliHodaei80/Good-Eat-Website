@@ -1,0 +1,57 @@
+*{
+    text-align:center;
+    
+}
+body, html {
+  height: 100%;
+  margin: 0;
+}
+body{
+    font-size: 150%;
+}
+body{
+    background-image: url("fast_food2.png");
+    height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+h3{
+    margin: 0;
+    padding: 0;
+    background-color: rgba(245, 66, 108, 0.5);
+}
+input[type=text]{
+	background-color: rgb(240, 214, 144,0.5);
+	font-size: 20px;
+	width: 300px; 
+	height: 30px;
+}
+input.in3{
+	width: 17px; 
+	height: 17px;
+}
+input.img{
+	opacity: 0.6;
+}
+input.in4{
+	border-style: solid;
+	border-color: aqua;
+	background-color: rgb(154, 168, 151,0.8);
+	font-size: 15px;
+	width: 70px; 
+	height: 30px;
+}
+input.in4:hover{
+    background-color: #6c736b;
+}
+div.main{
+	position: relative;
+	top: 20px;
+	background-color: rgb(148, 176, 155,0.8);
+	width: 300px;
+	margin: auto;
+	padding: 25px;
+
+}
